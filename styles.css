@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600;700&display=swap");
+
+::selection {
+  color: #696c73;
+  background: #f7f9ff;
+}
+
+body {
+  background-color: #040505;
+  color: #f7f9ff;
+  font-family: "Ibarra Real Nova", serif;
+}
+
+.block:first-child {
+  margin-top: 15%;
+}
+
+.block {
+  max-width: 420px;
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 24pt;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0;
+}
+
+.linksBlock {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0px 12px;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #f7f9ff;
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+a:hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+span {
+  color: #696c73;
+}
