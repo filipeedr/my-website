@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600;700&display=swap");
 
+*{
+  -webkit-font-smoothing: antialiased;
+}
+
 ::selection {
   color: #696c73;
   background: #f7f9ff;
@@ -12,7 +16,7 @@ body {
 }
 
 .block:first-child {
-  margin-top: 15%;
+  margin-top: 22%;
 }
 
 .block {
