@@ -30,6 +30,7 @@ img{
   width: 80px;
   margin-bottom: 24px;
   border-radius: 100%;
+  pointer-events: none;
   filter: grayscale();
   transition: 0.3s;
 }
