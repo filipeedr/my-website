@@ -16,14 +16,27 @@ body {
 }
 
 .block:first-child {
-  margin-top: 22%;
+  margin-top: 30%;
 }
 
 .block {
   max-width: 420px;
-  margin-left: 80px;
-  margin-right: 48px;
+  margin-left: 4%;
+  margin-right: 4%;
   margin-bottom: 48px;
+}
+
+img{
+  width: 80px;
+  margin-bottom: 24px;
+  border-radius: 100%;
+  filter: grayscale();
+  transition: 0.3s;
+}
+
+img:hover{
+  filter: initial;
+  transition: 0.3s;
 }
 
 h1 {
