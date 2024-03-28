@@ -4,13 +4,16 @@
   -webkit-font-smoothing: antialiased;
 }
 
+html{
+  background-color: #090909;
+}
+
 ::selection {
   color: #696c73;
   background: #f7f9ff;
 }
 
 body {
-  background-color: #040505;
   color: #f7f9ff;
   font-family: "Ibarra Real Nova", serif;
 }
@@ -32,12 +35,6 @@ img{
   border-radius: 100%;
   pointer-events: none;
   filter: grayscale();
-  transition: 0.3s;
-}
-
-img:hover{
-  filter: initial;
-  transition: 0.3s;
 }
 
 h1 {
