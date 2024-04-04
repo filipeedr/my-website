@@ -40,7 +40,6 @@ img{
   margin-bottom: 40px;
   border-radius: 100%;
   pointer-events: none;
-  filter: grayscale();
 }
 
 h1 {
